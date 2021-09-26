@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-con">
+          <div class="clock-resize">  <img src="./images/clockimages.jpg" class="clock" alt="clock"> </div>
+            <span class="clock-text">CLOCK</span>
+        </div>
+        <div class="time-con">
+            <div class="time-clock1">TIME</div>
+            <div class="time-clock" id="tclock"></div>:
+            <div class="time-clock" id="tclock1"></div>:
+            <div class="time-clock" id="tclock2"></div>
+            <div class="time-clock" id="tclock3"></div>
+        </div>
+        <div class="first-main">
+            <div class="time-set1">
+                <div class="line-1">
+                 <div>   <img src="./images/sun1.png" class="sun-icon" alt=""> </div>
+                    <div class="line-text">Set wake up time</div>
+                    <div class="custom-select">
+                        <select name="" id="ss">
+                            <option value="0">
+                                8 AM - 9 AM
+                            </option>
+                            <option value="1">
+                               9 AM - 10 AM
+                            </option>
+                            <option value="2">
+                               10 AM - 11 AM
+                            </option>
+                            <option value="3">
+                                11 AM - 12 PM
+                            </option>
+                        </select>
+                   </div>
+                </div>
+                <div class="line-1">
+                    <div>   <img src="./images/fork.png" class="sun-icon" alt=""> </div>
+                    <div class="line-text">Set lunch time</div>
+                    <div class="custom-select">
+                         <select name="" id="ss">
+                             <option value="0">
+                                 6 AM - 12 PM
+                             </option>
+                             <option value="1">
+                                12 PM - 5 PM
+                             </option>
+                             <option value="2">
+                                6 PM - 10 PM
+                             </option>
+                             <option value="3">
+                                 10 PM - 5 AM
+                             </option>
+                         </select>
+                    </div>
+                </div>
+                <div class="line-1">
+
+                    <div>   <img src="./images/zimages.png" class="sun-icon" alt=""> </div>
+                    <div class="line-text">Set nap time</div>
+                    <div class="custom-select">
+                        <select name="" id="ss">
+                            <option value="0">
+                                6 AM - 12 PM
+                            </option>
+                            <option value="1">
+                               12 PM - 5 PM
+                            </option>
+                            <option value="2">
+                               6 PM - 10 PM
+                            </option>
+                            <option value="3">
+                                10 PM - 5 AM
+                            </option>
+                        </select>
+                   </div>
+
+                </div>
+            </div>
+            <div class="greeting gcom" id="gt"></div>
+            <div class="party gcom" id="partytime" onclick="changeImage()">Party Time</div>
+        </div>
+        
+        <div class="first-main1">
+            <img src="" class="main-img" id="image" alt="">
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
